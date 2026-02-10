@@ -1,7 +1,7 @@
 rotations = []
 
 def setRotations():
-    with open("rotation-inputs.txt", "r") as file:
+    with open("aoc-day-1/rotation-inputs.txt", "r") as file:
         for i in file:
             formattedInput = i.rstrip()
             rotations.append(formattedInput)
